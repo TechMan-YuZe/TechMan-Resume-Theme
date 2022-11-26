@@ -1,0 +1,332 @@
+/* TechMan-YuZe Resume Theme for Typora（衬线字体版） */
+
+@import "techman-resume-theme-fonts/fonts.css";
+:root {
+    /* 二级标题字体、边框和链接颜色 */
+    --main-1: #2e92ef;
+    /* 二级标题背景颜色 */
+    --main-2: rgba(46, 146, 239, 0.05);
+}
+
+
+/* 字体大小 */
+
+html {
+    font-size: 14px !important;
+}
+
+body {
+    /* 字体族：新罗马（英文，数字） + 思源宋体（中文） */
+    font-family: "Times-New-Roman", "Noto-Serif-SC-Regular", serif !important;
+    -webkit-font-smoothing: antialiased;
+    /* 字符间距 */
+    letter-spacing: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* Markdown 边距 */
+
+#write {
+    /* 上外边距 */
+    padding-top: 10px !important;
+    /* 左外边距 */
+    padding-left: 30px !important;
+    /* 右外边距 */
+    padding-right: 30px !important;
+}
+
+
+/* 一级标题 */
+
+h1 {
+    /* 字体大小 */
+    font-size: 40px !important;
+    /* 字体族：新罗马（英文，数字） + 思源宋体（中文）*/
+    font-family: "Times-New-Roman-Bold", "Noto-Serif-SC-Medium", serif !important;
+    /* 上外边距 */
+    margin-top: 0px !important;
+    /* 下外边距 */
+    margin-bottom: 20px !important;
+    /* 水平居中 */
+    text-align: center;
+}
+
+
+/* 二级标题 */
+
+h2 {
+    /* 字体颜色 */
+    color: var(--main-1);
+    /* 背景颜色 */
+    background-color: var(--main-2);
+    /* 字体大小 */
+    font-size: 20px;
+    /* 字体族：新罗马（英文，数字） + 思源宋体（中文）*/
+    font-family: "Times-New-Roman", "Noto-Serif-SC-Regular", serif !important;
+    /* 左内边距 */
+    padding-left: 10px;
+    /* 左边框 */
+    border-left: 5px solid var(--main-1);
+    /* 行高 */
+    line-height: 32px;
+    /* 上外边距 */
+    margin-top: 0px !important;
+    /* 下外边距 */
+    margin-bottom: 0px !important;
+    margin-block-start: 5px !important;
+    margin-block-end: 5px !important;
+}
+
+
+/* 分割线 */
+
+hr {
+    border: 0.5px solid #000 !important;
+    margin-block-start: 3px !important;
+    margin-block-end: 3px !important;
+}
+
+
+/* 表格 */
+
+figure {
+    /* 上外边距 */
+    margin-top: 5px !important;
+    /* 下外边距 */
+    margin-bottom: 5px !important;
+}
+
+
+/* 单元格 */
+
+th span,
+td span {
+    /* 上内边距 */
+    padding-top: 2px !important;
+    /* 下内边距 */
+    padding-bottom: 2px !important;
+    /* 字体大小 */
+    font-size: 16px;
+    /* 字体族：新罗马（英文，数字） + 思源宋体（中文）*/
+    font-family: "Times-New-Roman", "Noto-Serif-SC-Regular", serif !important;
+    font-weight: normal;
+}
+
+
+/* 段落 */
+
+p {
+    /* 上外边距 */
+    margin-top: 0 !important;
+    /* 下外边距 */
+    margin-bottom: 0 !important;
+}
+
+
+/* 一级无序列表 */
+
+ul {
+    margin-block-start: 0px !important;
+    /* 下外边距 */
+    margin-bottom: 0px !important;
+    /* 左内边距 */
+    padding-left: 18px !important;
+}
+
+
+/* 二级无序列表 */
+
+ul li ul {
+    /* 左外边距 */
+    margin-left: 10px;
+    /* 左内边距 */
+    padding-left: 20px;
+}
+
+
+/* 行内代码 */
+
+#write code {
+    /* 外边距 */
+    margin: 0 4px;
+    /* 内边距 */
+    padding: 2px 4px;
+    /* 边框圆角 */
+    border-radius: 4px;
+    /* 字体族 */
+    font-family: "SF-Mono-SC", monospace !important;
+    /* 字体大小 */
+    font-size: 0.92rem;
+    /* 字体颜色 */
+    color: var(--main-1);
+    /* 字体背景 */
+    background-color: var(--main-2);
+}
+
+
+/* 链接 */
+
+a {
+    /* 字体大小 */
+    font-size: 16px;
+    /* 字体颜色 */
+    color: var(--main-1);
+    /* text-decoration-line: none; */
+}
+
+
+/* 粗体 */
+
+strong span {
+    /* 字体族 */
+    font-family: "Times-New-Roman-Bold", "Noto-Serif-SC-Medium", serif !important;
+    font-weight: bold;
+}
+
+
+/* PDF 导出设置 */
+
+@media print {
+    .typora-export * {
+        -webkit-print-color-adjust: exact;
+    }
+    /* 字体大小 */
+    html {
+        font-size: 14px !important;
+    }
+    body {
+        /* 字体族：新罗马（英文，数字） + 思源宋体（中文） */
+        font-family: "Times-New-Roman", "Noto-Serif-SC-Regular", serif !important;
+        -webkit-font-smoothing: antialiased;
+        /* 字符间距 */
+        letter-spacing: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* Markdown 边距 */
+    #write {
+        /* 上外边距 */
+        padding-top: 10px !important;
+        /* 左外边距 */
+        padding-left: 30px !important;
+        /* 右外边距 */
+        padding-right: 30px !important;
+    }
+    /* 一级标题 */
+    h1 {
+        /* 字体大小 */
+        font-size: 40px !important;
+        /* 字体族：新罗马（英文，数字） + 思源宋体（中文）*/
+        font-family: "Times-New-Roman-Bold", "Noto-Serif-SC-Medium", serif !important;
+        /* 上外边距 */
+        margin-top: 0px !important;
+        /* 下外边距 */
+        margin-bottom: 20px !important;
+        /* 水平居中 */
+        text-align: center;
+    }
+    /* 二级标题 */
+    h2 {
+        /* 字体颜色 */
+        color: var(--main-1);
+        /* 背景颜色 */
+        background-color: var(--main-2);
+        /* 字体大小 */
+        font-size: 20px;
+        /* 字体族：新罗马（英文，数字） + 思源宋体（中文）*/
+        font-family: "Times-New-Roman", "Noto-Serif-SC-Regular", serif !important;
+        /* 左内边距 */
+        padding-left: 10px;
+        /* 左边框 */
+        border-left: 5px solid var(--main-1);
+        /* 行高 */
+        line-height: 32px;
+        /* 上外边距 */
+        margin-top: 0px !important;
+        /* 下外边距 */
+        margin-bottom: 0px !important;
+        margin-block-start: 5px !important;
+        margin-block-end: 5px !important;
+    }
+    /* 分割线 */
+    hr {
+        border: 0.5px solid #000 !important;
+        margin-block-start: 3px !important;
+        margin-block-end: 3px !important;
+    }
+    /* 表格 */
+    figure {
+        /* 上外边距 */
+        margin-top: 5px !important;
+        /* 下外边距 */
+        margin-bottom: 5px !important;
+    }
+    /* 单元格 */
+    th span,
+    td span {
+        /* 上内边距 */
+        padding-top: 2px !important;
+        /* 下内边距 */
+        padding-bottom: 2px !important;
+        /* 字体大小 */
+        font-size: 16px;
+        /* 字体族：新罗马（英文，数字） + 思源宋体（中文）*/
+        font-family: "Times-New-Roman", "Noto-Serif-SC-Regular", serif !important;
+        font-weight: normal;
+    }
+    /* 段落 */
+    p {
+        /* 上外边距 */
+        margin-top: 0 !important;
+        /* 下外边距 */
+        margin-bottom: 0 !important;
+    }
+    /* 一级无序列表 */
+    ul {
+        margin-block-start: 0px !important;
+        /* 下外边距 */
+        margin-bottom: 0px !important;
+        /* 左内边距 */
+        padding-left: 18px !important;
+    }
+    /* 二级无序列表 */
+    ul li ul {
+        /* 左外边距 */
+        margin-left: 10px;
+        /* 左内边距 */
+        padding-left: 20px;
+    }
+    /* 行内代码 */
+    #write code {
+        /* 外边距 */
+        margin: 0 4px;
+        /* 内边距 */
+        padding: 2px 4px;
+        /* 边框圆角 */
+        border-radius: 4px;
+        /* 字体族 */
+        font-family: "SF-Mono-SC", monospace !important;
+        /* 字体大小 */
+        font-size: 0.92rem;
+        /* 字体颜色 */
+        color: var(--main-1);
+        /* 字体背景 */
+        background-color: var(--main-2);
+    }
+    /* 链接 */
+    a {
+        /* 字体大小 */
+        font-size: 16px;
+        /* 字体颜色 */
+        color: var(--main-1);
+        /* text-decoration-line: none; */
+    }
+    /* 粗体 */
+    strong span {
+        /* 字体族 */
+        font-family: "Times-New-Roman-Bold", "Noto-Serif-SC-Medium", serif !important;
+        font-weight: bold;
+    }
+}

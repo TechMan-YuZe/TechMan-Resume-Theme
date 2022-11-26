@@ -1,0 +1,83 @@
+/* PingFang SC */
+
+@font-face {
+    font-family: "PingFang-SC-Heavy";
+    src: url(./PingFang-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "PingFang-SC-Bold";
+    src: url(./PingFang-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PingFang-SC-Medium";
+    src: url(./PingFang-Medium.ttf);
+}
+
+@font-face {
+    font-family: "PingFang-SC-Regular";
+    src: url(./PingFang-Regular.ttf);
+}
+
+
+/* Noto Sans SC */
+
+@font-face {
+    font-family: "Noto-Sans-SC-Bold";
+    src: url(./NotoSansSC-Bold.otf);
+}
+
+@font-face {
+    font-family: "Noto-Sans-SC-Medium";
+    src: url(./NotoSansSC-Medium.otf);
+}
+
+@font-face {
+    font-family: "Noto-Sans-SC-Regular";
+    src: url(./NotoSansSC-Regular.otf);
+}
+
+
+/* Noto Serif SC */
+
+@font-face {
+    font-family: "Noto-Serif-SC-Bold";
+    src: url(./NotoSerifSC-Bold.otf);
+}
+
+@font-face {
+    font-family: "Noto-Serif-SC-Medium";
+    src: url(./NotoSerifSC-Medium.otf);
+}
+
+@font-face {
+    font-family: "Noto-Serif-SC-Regular";
+    src: url(./NotoSerifSC-Regular.otf);
+}
+
+
+/* Times New Roman */
+
+@font-face {
+    font-family: "Times-New-Roman";
+    src: url(./Times-New-Roman.ttf);
+}
+
+@font-face {
+    font-family: "Times-New-Roman-Bold";
+    src: url(./Times-New-Roman-Bold.ttf);
+}
+
+
+/* SF Mono SC */
+
+@font-face {
+    font-family: "SF-Mono-SC";
+    src: url(./SFMonoSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SF-Mono-SC-Bold";
+    src: url(./SFMonoSC-Bold.ttf);
+}
